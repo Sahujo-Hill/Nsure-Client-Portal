@@ -1,0 +1,46 @@
+﻿@page "/login"
+
+<link rel="stylesheet" href="/css/Global.css" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@160..700&display=swap" rel="stylesheet">
+
+<div class="frame"> <!--Generic Frame used for all pages: FrameSTART -->
+    
+    <!--Nsure Client Portal logo-->
+    <div style="margin-bottom: 125px" class="companyLogo">
+
+        <div class="logoText">
+            <span class="companyLogoN">N</span>
+            <span class="companyLogoSure">sure</span>
+        </div>
+
+        <div style="width: 100%; height: 30%; background: #D9D9D9">
+            <p class="companyLogoCP">
+                Client Portal
+            </p>
+        </div>
+    </div>
+
+    <!--Nsure Login fields and button-->
+    <div class="loginEntry">
+
+        <p style="margin-bottom: 0px" class="readex24">Username</p>
+        <textarea style="width: 313px; height: 51px; background: #D9D9D9"></textarea>
+        <p style="margin-bottom: 0px" class="readex24">Password</p>
+        <textarea type="password" style="margin-bottom: 30px; width: 313px; height: 51px; background: #D9D9D9"></textarea>
+
+        <NavLink style="text-decoration: none; align-self: center" href="policyHome" Match="NavLinkMatch.All">
+
+            <button class="loginButton">Login</button>
+
+        </NavLink>
+
+    </div>
+
+
+</div> <!--Generic Frame used for all pages: FrameEND -->
+
+@code {
+
+}
