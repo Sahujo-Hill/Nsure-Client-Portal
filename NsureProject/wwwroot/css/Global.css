@@ -8,6 +8,14 @@
     font-variation-settings: "HEXP" 0;
 }
 
+.inter-<uniquifier > {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <12>;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+}
+
 /*Generic Styles*/
 
 .frame {
@@ -109,13 +117,31 @@
     letter-spacing: 4px;
 }
 
-/*PolicyHome Page Styles*/
+.inter14Green {
+    color: #3C9072;
+    font-size: 14px;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: 19.60px;
+    word-wrap: break-word
+}
+
+.inter14 {
+    color: black;
+    font-size: 14px;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: 19.60px;
+    word-wrap: break-word
+}
+
+/*PolicySelect Page Styles*/
 
 .policySelector {
     display: flex;
 }
 
-.policyHomeWhiteBox {
+.policySelectWhiteBox {
     width: 303px;
     height: 89px;
     background: #FFF;
@@ -126,7 +152,7 @@
     padding-left: 5px;
 }
 
-/*PolicyHome Page Car Styles*/
+/*PolicySelect Page Car Styles*/
 
 .myCar { 
     width: 331px;
@@ -142,7 +168,7 @@
     margin: 112px 12px 5px 16px;
 }
 
-/*PolicyHome Page Home Styles*/
+/*PolicySelect Page Home Styles*/
 
 .myHome {
     width: 331px;
@@ -159,7 +185,7 @@
     margin: 112px 12px 5px 16px;
 }
 
-/*PolicyHome Page Life Styles*/
+/*PolicySelect Page Life Styles*/
 
 .myLife {
     width: 331px;
@@ -174,4 +200,96 @@
     width: 90%;
     height: auto;
     margin: 100px 12px 5px 16px;
+}
+
+/*myPolicy Page Styles*/
+
+.policyContainer {
+    display: flex;
+    flex-direction: row;
+    width: 1060px;
+    height: 453px;
+    flex-shrink: 0;
+    background: #D9D9D9;
+}
+
+.policyContainerWhiteBox {
+    width: 715px;
+    height: 429px;
+    flex-shrink: 0;
+    margin-right: 12px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+    background-color: white;
+}
+
+.mySummary {
+    display: flex;
+    flex-direction: column;
+    width: 331px;
+    height: 453px;
+    background: #D9D9D9;
+    padding-top: 16px;
+}
+
+.dateTable {
+    margin: 62px 30px 0px 30px;
+    width: 650px;
+}
+
+.dateTable tr {
+    border-bottom: 1px solid #000;
+}
+
+.dateTable td, th {
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.dateTable td {
+    text-align: right;
+}
+
+.summaryTable {
+    flex-direction: column;
+    width: 650px;
+    margin: 40px 30px 0px 30px;
+    
+}
+
+.summaryTable tr {
+    border-bottom: 1px solid black;
+}
+
+.summaryTable td, .summaryTable th {
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.summaryTable td {
+    text-align: left;
+}
+
+.policyButtonSection {
+    margin-top: 60px;
+    margin-left: 30px;
+}
+
+.policyButtonSection span {
+    margin-right: 32px;
+}
+
+.docsIcon {
+    width: 50px;
+    height: auto;
+}
+
+.editIcon {
+    width: 65px;
+    height: auto;
+}
+
+.paymentIcon {
+    width: 70px;
+    height: auto;
 }

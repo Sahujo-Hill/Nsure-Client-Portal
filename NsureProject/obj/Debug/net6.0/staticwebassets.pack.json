@@ -61,6 +61,14 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Projects\\Nsure---Josh\\NsureProject\\wwwroot\\images\\docs.png",
+      "PackagePath": "staticwebassets\\images\\docs.png"
+    },
+    {
+      "Id": "C:\\Projects\\Nsure---Josh\\NsureProject\\wwwroot\\images\\edit.png",
+      "PackagePath": "staticwebassets\\images\\edit.png"
+    },
+    {
       "Id": "C:\\Projects\\Nsure---Josh\\NsureProject\\wwwroot\\images\\elecCar.gif",
       "PackagePath": "staticwebassets\\images\\elecCar.gif"
     },
@@ -75,6 +83,10 @@
     {
       "Id": "C:\\Projects\\Nsure---Josh\\NsureProject\\wwwroot\\images\\mustang.gif",
       "PackagePath": "staticwebassets\\images\\mustang.gif"
+    },
+    {
+      "Id": "C:\\Projects\\Nsure---Josh\\NsureProject\\wwwroot\\images\\payments.png",
+      "PackagePath": "staticwebassets\\images\\payments.png"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.NsureProject.Microsoft.AspNetCore.StaticWebAssets.props",
