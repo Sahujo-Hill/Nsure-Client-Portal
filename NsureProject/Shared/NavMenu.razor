@@ -1,50 +1,71 @@
 ﻿@using NsureProject.Pages
+@inject AuthenticationStateProvider AuthenticationStateProvider
+@using Microsoft.AspNetCore.Components.Authorization
+
 <link rel="stylesheet" href="/Shared/NavMenu.razor.css" />
 
 
 
 
-<div class="top-row ps-3 navbar navbar-dark">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="Nsure">Nsure</a>
-        <button title="Navigation menu" class="navbar-toggler" @onclick="ToggleNavMenu">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-    </div>
-</div>
+
 
 <div class="@NavMenuCssClass" @onclick="ToggleNavMenu">
     <nav class="flex-column">
 
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="login" Match="NavLinkMatch.All">
-                <span class="oi oi-account-login" aria-hidden="true"></span> Login
-            </NavLink>
-        </div>
+@*          <div class="top-row ps-3 navbar navbar-dark">
+             <div class="container-fluid">
+                 <a class="navbar-brand" href="Nsure">Nsure</a>
+                 <button title="Navigation menu" class="navbar-toggler" @onclick="ToggleNavMenu">
+                     <span class="navbar-toggler-icon"></span>
+                 </button>
+             </div>
+         </div> *@
 
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="policySelect" Match="NavLinkMatch.All">
-                <span class="oi oi-align-center" aria-hidden="true"></span> My Policies
-            </NavLink>
-        </div>
+        <AuthorizeView>
+            <NotAuthorized>
+                @if (context.User.Identity.IsAuthenticated)
+                {
+                    //Don't Show Login Button if user is already logged in
 
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="myCar" Match="NavLinkMatch.All">
-                <span class="oi oi-key" aria-hidden="true"></span> My Car
-            </NavLink>
-        </div>
+                }
+                else
+                {
+                    <div class="nav-item px-3">
+                        <NavLink class="nav-link" href="login" Match="NavLinkMatch.All">
+                            <span class="oi oi-account-login" aria-hidden="true"></span> Login
+                        </NavLink>
+                    </div>
 
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="myHome" Match="NavLinkMatch.All">
-                <span class="oi oi-home" aria-hidden="true"></span> My Home
-            </NavLink>
-        </div>
+                }
 
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="myLife" Match="NavLinkMatch.All">
-                <span class="oi oi-heart" aria-hidden="true"></span> My Life
-            </NavLink>
-        </div>
+            </NotAuthorized>
+            <Authorized>
+            <div class="nav-item px-3">
+                <NavLink class="nav-link" href="policySelect" Match="NavLinkMatch.All">
+                    <span class="oi oi-align-center" aria-hidden="true"></span> My Policies
+                </NavLink>
+            </div>
+
+            <div class="nav-item px-3">
+                <NavLink class="nav-link" href="myCar" Match="NavLinkMatch.All">
+                    <span class="oi oi-key" aria-hidden="true"></span> My Car
+                </NavLink>
+            </div>
+
+            <div class="nav-item px-3">
+                <NavLink class="nav-link" href="myHome" Match="NavLinkMatch.All">
+                    <span class="oi oi-home" aria-hidden="true"></span> My Home
+                </NavLink>
+            </div>
+
+            <div class="nav-item px-3">
+                <NavLink class="nav-link" href="myLife" Match="NavLinkMatch.All">
+                    <span class="oi oi-heart" aria-hidden="true"></span> My Life
+                </NavLink>
+            </div>
+            </Authorized>
+        </AuthorizeView>
+        
 
 
     </nav>
