@@ -1,74 +1,63 @@
-﻿@page "/login"
+﻿@page "/"
 @using Microsoft.AspNetCore.Authorization;
 @inject AuthenticationStateProvider AuthenticationStateProvider
 @using Microsoft.AspNetCore.Components.Authorization
 
+<link rel="stylesheet" href="/css/Global.css" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@160..700&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
 
 <AuthorizeView>
+
     <Authorized>
-        <p>Hello, @context.User.Identity?.Name! You Are already logged in you silly. Would you like to Log out?</p>
+        <p>Sorry @context.User.Identity?.Name, You Are already logged in with Microsoft.</p>
         <a href="MicrosoftIdentity/Account/SignOut">Log out</a>
     </Authorized>
+
     <NotAuthorized>
-        <link rel="stylesheet" href="/css/Global.css" />
 
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@160..700&display=swap" rel="stylesheet">
+        <div class="frame"><!--Generic Frame used for all pages: FrameSTART -->
 
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+            <NsureProject.Components.Logo>
 
-        <div class="frame">
-            <!--Generic Frame used for all pages: FrameSTART -->
-            <!--Nsure Client Portal logo-->
-            <div style="margin-bottom: 125px" class="companyLogo">
-
-                <div class="logoText">
-                    <span class="companyLogoN">N</span>
-                    <span class="companyLogoSure">sure</span>
-                </div>
-
-                <div style="width: 100%; height: 30%; background: #D9D9D9">
-                    <p class="companyLogoCP">
-                        Client Portal
-                    </p>
-                </div>
-            </div>
+            </NsureProject.Components.Logo>
 
             <!--Nsure Login fields and button-->
             <div class="loginEntry">
 
-                <p style="margin-bottom: 0px" class="readex24">Username</p>
-                <input style="width: 313px; padding-left: 10px; height: 51px; font-size: 24px; background: #D9D9D9"/>
+                <p style="margin-bottom: 0px; margin-top: 100px" class="readex24">Username</p>
+                <input class="loginInput"/>
                 <p style="margin-bottom: 0px" class="readex24">Password</p>
-                <input type="password" style="margin-bottom:  30px; font-size: 24px; padding-left: 10px; width: 313px; height: 51px; background: #D9D9D9" />
+                <input type="password" class="loginInput" />
+
+                <NavLink style="text-decoration: none; margin-top: 30px; align-self: center" href="policySelect" Match="NavLinkMatch.All">
+                    <button class="loginButton">Login</button>
+                </NavLink>
 
                 <div style="display: flex; justify-content: center; align-items: center;">
-                    <div style="border: 1px solid #ccc; padding: 20px; margin: 10px 0; width: 300px; border-radius: 5px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15); text-align: center;">
-                        <p style="margin: 0 0 10px 0; font-size: 16px; color: #333;">Want to log in using an Active Directory Account? Press Here</p>
-                        <a href="MicrosoftIdentity/Account/SignIn" style="display: inline-block; padding: 10px 20px; background-color: black; color: #fff; text-decoration: none; border-radius: 5px; transition: background-color 0.3s ease;">
-                            Press Here
+                    <div class="alternateLoginContainer">
+                        <p style="margin: 0 0 10px 0; font-size: 16px; color: #333; font-family: Inter;">
+                            Don't have an account setup?
+                        </p>
+                        <a href="MicrosoftIdentity/Account/SignIn">
+                            <img src="/images/microsoftLogin.png" />
                         </a>
                     </div>
                 </div>
-
-
-
-                <NavLink style="text-decoration: none; margin-top: 30px; align-self: center" href="policySelect" Match="NavLinkMatch.All">
-
-                    <button class="loginButton">Login</button>
-
-                </NavLink>
-
-
 
             </div>
 
 
         </div> <!--Generic Frame used for all pages: FrameEND -->
     </NotAuthorized>
+
 </AuthorizeView>
 
 

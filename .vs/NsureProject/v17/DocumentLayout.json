@@ -1,18 +1,42 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\NsureProject\\Nsure---Josh\\",
+  "WorkspaceRootPath": "C:\\Projects\\Nsure---Josh\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D80EF2B6-543A-463E-8867-17E4755006EC}|NsureProject\\NsureProject.csproj|c:\\nsureproject\\nsure---josh\\nsureproject\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{D80EF2B6-543A-463E-8867-17E4755006EC}|NsureProject\\NsureProject.csproj|c:\\projects\\nsure---josh\\nsureproject\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D80EF2B6-543A-463E-8867-17E4755006EC}|NsureProject\\NsureProject.csproj|solutionrelative:nsureproject\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D80EF2B6-543A-463E-8867-17E4755006EC}|NsureProject\\NsureProject.csproj|c:\\nsureproject\\nsure---josh\\nsureproject\\shared\\logindisplay.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{D80EF2B6-543A-463E-8867-17E4755006EC}|NsureProject\\NsureProject.csproj|c:\\projects\\nsure---josh\\nsureproject\\components\\logo.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D80EF2B6-543A-463E-8867-17E4755006EC}|NsureProject\\NsureProject.csproj|solutionrelative:nsureproject\\components\\logo.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D80EF2B6-543A-463E-8867-17E4755006EC}|NsureProject\\NsureProject.csproj|c:\\projects\\nsure---josh\\nsureproject\\shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D80EF2B6-543A-463E-8867-17E4755006EC}|NsureProject\\NsureProject.csproj|solutionrelative:nsureproject\\shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D80EF2B6-543A-463E-8867-17E4755006EC}|NsureProject\\NsureProject.csproj|c:\\projects\\nsure---josh\\nsureproject\\pages\\policyselect.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D80EF2B6-543A-463E-8867-17E4755006EC}|NsureProject\\NsureProject.csproj|solutionrelative:nsureproject\\pages\\policyselect.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D80EF2B6-543A-463E-8867-17E4755006EC}|NsureProject\\NsureProject.csproj|c:\\projects\\nsure---josh\\nsureproject\\wwwroot\\css\\global.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{D80EF2B6-543A-463E-8867-17E4755006EC}|NsureProject\\NsureProject.csproj|solutionrelative:nsureproject\\wwwroot\\css\\global.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D80EF2B6-543A-463E-8867-17E4755006EC}|NsureProject\\NsureProject.csproj|c:\\projects\\nsure---josh\\nsureproject\\shared\\logindisplay.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D80EF2B6-543A-463E-8867-17E4755006EC}|NsureProject\\NsureProject.csproj|solutionrelative:nsureproject\\shared\\logindisplay.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D80EF2B6-543A-463E-8867-17E4755006EC}|NsureProject\\NsureProject.csproj|c:\\nsureproject\\nsure---josh\\nsureproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D80EF2B6-543A-463E-8867-17E4755006EC}|NsureProject\\NsureProject.csproj|solutionrelative:nsureproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D80EF2B6-543A-463E-8867-17E4755006EC}|NsureProject\\NsureProject.csproj|c:\\projects\\nsure---josh\\nsureproject\\pages\\mylife.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D80EF2B6-543A-463E-8867-17E4755006EC}|NsureProject\\NsureProject.csproj|solutionrelative:nsureproject\\pages\\mylife.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D80EF2B6-543A-463E-8867-17E4755006EC}|NsureProject\\NsureProject.csproj|c:\\projects\\nsure---josh\\nsureproject\\pages\\myhome.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D80EF2B6-543A-463E-8867-17E4755006EC}|NsureProject\\NsureProject.csproj|solutionrelative:nsureproject\\pages\\myhome.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D80EF2B6-543A-463E-8867-17E4755006EC}|NsureProject\\NsureProject.csproj|c:\\projects\\nsure---josh\\nsureproject\\pages\\mycar.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D80EF2B6-543A-463E-8867-17E4755006EC}|NsureProject\\NsureProject.csproj|solutionrelative:nsureproject\\pages\\mycar.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -21,16 +45,61 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 127,
-          "SelectedChildIndex": 1,
+          "DockedWidth": 115,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
+              "Title": "Global.css",
+              "DocumentMoniker": "C:\\Projects\\Nsure---Josh\\NsureProject\\wwwroot\\css\\Global.css",
+              "RelativeDocumentMoniker": "NsureProject\\wwwroot\\css\\Global.css",
+              "ToolTip": "C:\\Projects\\Nsure---Josh\\NsureProject\\wwwroot\\css\\Global.css",
+              "RelativeToolTip": "NsureProject\\wwwroot\\css\\Global.css",
+              "ViewState": "AQIAAJwAAAAAAAAAAAAAAHEAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-10T18:08:58.743Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 281,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Login.razor",
+              "DocumentMoniker": "C:\\Projects\\Nsure---Josh\\NsureProject\\Pages\\Login.razor",
+              "RelativeDocumentMoniker": "NsureProject\\Pages\\Login.razor",
+              "ToolTip": "C:\\Projects\\Nsure---Josh\\NsureProject\\Pages\\Login.razor",
+              "RelativeToolTip": "NsureProject\\Pages\\Login.razor",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAADAAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-10T18:09:20.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Projects\\Nsure---Josh\\NsureProject\\Shared\\NavMenu.razor",
+              "RelativeDocumentMoniker": "NsureProject\\Shared\\NavMenu.razor",
+              "ToolTip": "C:\\Projects\\Nsure---Josh\\NsureProject\\Shared\\NavMenu.razor",
+              "RelativeToolTip": "NsureProject\\Shared\\NavMenu.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-10T18:09:36.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "LoginDisplay.razor",
-              "DocumentMoniker": "C:\\NsureProject\\Nsure---Josh\\NsureProject\\Shared\\LoginDisplay.razor",
+              "DocumentMoniker": "C:\\Projects\\Nsure---Josh\\NsureProject\\Shared\\LoginDisplay.razor",
               "RelativeDocumentMoniker": "NsureProject\\Shared\\LoginDisplay.razor",
-              "ToolTip": "C:\\NsureProject\\Nsure---Josh\\NsureProject\\Shared\\LoginDisplay.razor",
+              "ToolTip": "C:\\Projects\\Nsure---Josh\\NsureProject\\Shared\\LoginDisplay.razor",
               "RelativeToolTip": "NsureProject\\Shared\\LoginDisplay.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -39,28 +108,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Login.razor",
-              "DocumentMoniker": "C:\\NsureProject\\Nsure---Josh\\NsureProject\\Pages\\Login.razor",
-              "RelativeDocumentMoniker": "NsureProject\\Pages\\Login.razor",
-              "ToolTip": "C:\\NsureProject\\Nsure---Josh\\NsureProject\\Pages\\Login.razor",
-              "RelativeToolTip": "NsureProject\\Pages\\Login.razor",
-              "ViewState": "AQIAABkAAAAAAAAAAAAkwCsAAAA/AAAA",
+              "DocumentIndex": 3,
+              "Title": "PolicySelect.razor",
+              "DocumentMoniker": "C:\\Projects\\Nsure---Josh\\NsureProject\\Pages\\PolicySelect.razor",
+              "RelativeDocumentMoniker": "NsureProject\\Pages\\PolicySelect.razor",
+              "ToolTip": "C:\\Projects\\Nsure---Josh\\NsureProject\\Pages\\PolicySelect.razor",
+              "RelativeToolTip": "NsureProject\\Pages\\PolicySelect.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-08T00:07:25.334Z",
+              "WhenOpened": "2024-06-10T18:09:22.989Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\NsureProject\\Nsure---Josh\\NsureProject\\Program.cs",
-              "RelativeDocumentMoniker": "NsureProject\\Program.cs",
-              "ToolTip": "C:\\NsureProject\\Nsure---Josh\\NsureProject\\Program.cs",
-              "RelativeToolTip": "NsureProject\\Program.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABoAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T00:03:00.344Z",
+              "DocumentIndex": 7,
+              "Title": "MyHome.razor",
+              "DocumentMoniker": "C:\\Projects\\Nsure---Josh\\NsureProject\\Pages\\MyHome.razor",
+              "RelativeDocumentMoniker": "NsureProject\\Pages\\MyHome.razor",
+              "ToolTip": "C:\\Projects\\Nsure---Josh\\NsureProject\\Pages\\MyHome.razor",
+              "RelativeToolTip": "NsureProject\\Pages\\MyHome.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-10T18:09:21.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MyCar.razor",
+              "DocumentMoniker": "C:\\Projects\\Nsure---Josh\\NsureProject\\Pages\\MyCar.razor",
+              "RelativeDocumentMoniker": "NsureProject\\Pages\\MyCar.razor",
+              "ToolTip": "C:\\Projects\\Nsure---Josh\\NsureProject\\Pages\\MyCar.razor",
+              "RelativeToolTip": "NsureProject\\Pages\\MyCar.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-10T18:09:21.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MyLife.razor",
+              "DocumentMoniker": "C:\\Projects\\Nsure---Josh\\NsureProject\\Pages\\MyLife.razor",
+              "RelativeDocumentMoniker": "NsureProject\\Pages\\MyLife.razor",
+              "ToolTip": "C:\\Projects\\Nsure---Josh\\NsureProject\\Pages\\MyLife.razor",
+              "RelativeToolTip": "NsureProject\\Pages\\MyLife.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-10T10:38:29.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Logo.razor",
+              "DocumentMoniker": "C:\\Projects\\Nsure---Josh\\NsureProject\\Components\\Logo.razor",
+              "RelativeDocumentMoniker": "NsureProject\\Components\\Logo.razor",
+              "ToolTip": "C:\\Projects\\Nsure---Josh\\NsureProject\\Components\\Logo.razor",
+              "RelativeToolTip": "NsureProject\\Components\\Logo.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-10T18:59:13.338Z",
               "EditorCaption": ""
             }
           ]

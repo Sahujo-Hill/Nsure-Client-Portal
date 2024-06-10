@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "AffFwGM1CNziu1I63VrwZSdAU+fz82ZyidAxfC+HdFw=",
+  "Hash": "ld+WaPi801kVes/5PFjPv7A/bsx2RurxAO/QqwCVyDk=",
   "Source": "NsureProject",
   "BasePath": "_content/NsureProject",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "NsureProject\\wwwroot",
       "Source": "NsureProject",
-      "ContentRoot": "C:\\NsureProject\\Nsure---Josh\\NsureProject\\wwwroot\\",
+      "ContentRoot": "C:\\Projects\\Nsure---Josh\\NsureProject\\wwwroot\\",
       "BasePath": "_content/NsureProject",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\NsureProject\\Nsure---Josh\\NsureProject\\obj\\Debug\\net6.0\\scopedcss\\bundle\\NsureProject.styles.css",
+      "Identity": "C:\\Projects\\Nsure---Josh\\NsureProject\\obj\\Debug\\net6.0\\scopedcss\\bundle\\NsureProject.styles.css",
       "SourceId": "NsureProject",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\NsureProject\\Nsure---Josh\\NsureProject\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Projects\\Nsure---Josh\\NsureProject\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/NsureProject",
       "RelativePath": "NsureProject.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\NsureProject\\Nsure---Josh\\NsureProject\\obj\\Debug\\net6.0\\scopedcss\\bundle\\NsureProject.styles.css"
+      "OriginalItemSpec": "C:\\Projects\\Nsure---Josh\\NsureProject\\obj\\Debug\\net6.0\\scopedcss\\bundle\\NsureProject.styles.css"
     },
     {
-      "Identity": "C:\\NsureProject\\Nsure---Josh\\NsureProject\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\NsureProject.bundle.scp.css",
+      "Identity": "C:\\Projects\\Nsure---Josh\\NsureProject\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\NsureProject.bundle.scp.css",
       "SourceId": "NsureProject",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\NsureProject\\Nsure---Josh\\NsureProject\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Projects\\Nsure---Josh\\NsureProject\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/NsureProject",
       "RelativePath": "NsureProject.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\NsureProject\\Nsure---Josh\\NsureProject\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\NsureProject.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Projects\\Nsure---Josh\\NsureProject\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\NsureProject.bundle.scp.css"
     },
     {
-      "Identity": "C:\\NsureProject\\Nsure---Josh\\NsureProject\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Projects\\Nsure---Josh\\NsureProject\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "NsureProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\NsureProject\\Nsure---Josh\\NsureProject\\wwwroot\\",
+      "ContentRoot": "C:\\Projects\\Nsure---Josh\\NsureProject\\wwwroot\\",
       "BasePath": "_content/NsureProject",
       "RelativePath": "css/bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\NsureProject\\Nsure---Josh\\NsureProject\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Projects\\Nsure---Josh\\NsureProject\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "NsureProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\NsureProject\\Nsure---Josh\\NsureProject\\wwwroot\\",
+      "ContentRoot": "C:\\Projects\\Nsure---Josh\\NsureProject\\wwwroot\\",
       "BasePath": "_content/NsureProject",
       "RelativePath": "css/bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\NsureProject\\Nsure---Josh\\NsureProject\\wwwroot\\css\\Global.css",
+      "Identity": "C:\\Projects\\Nsure---Josh\\NsureProject\\wwwroot\\css\\Global.css",
       "SourceId": "NsureProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\NsureProject\\Nsure---Josh\\NsureProject\\wwwroot\\",
+      "ContentRoot": "C:\\Projects\\Nsure---Josh\\NsureProject\\wwwroot\\",
       "BasePath": "_content/NsureProject",
       "RelativePath": "css/Global.css",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\css\\Global.css"
     },
     {
-      "Identity": "C:\\NsureProject\\Nsure---Josh\\NsureProject\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Identity": "C:\\Projects\\Nsure---Josh\\NsureProject\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "NsureProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\NsureProject\\Nsure---Josh\\NsureProject\\wwwroot\\",
+      "ContentRoot": "C:\\Projects\\Nsure---Josh\\NsureProject\\wwwroot\\",
       "BasePath": "_content/NsureProject",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "C:\\NsureProject\\Nsure---Josh\\NsureProject\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Identity": "C:\\Projects\\Nsure---Josh\\NsureProject\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "SourceId": "NsureProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\NsureProject\\Nsure---Josh\\NsureProject\\wwwroot\\",
+      "ContentRoot": "C:\\Projects\\Nsure---Josh\\NsureProject\\wwwroot\\",
       "BasePath": "_content/NsureProject",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.eot",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Identity": "C:\\NsureProject\\Nsure---Josh\\NsureProject\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Identity": "C:\\Projects\\Nsure---Josh\\NsureProject\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "SourceId": "NsureProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\NsureProject\\Nsure---Josh\\NsureProject\\wwwroot\\",
+      "ContentRoot": "C:\\Projects\\Nsure---Josh\\NsureProject\\wwwroot\\",
       "BasePath": "_content/NsureProject",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.otf",
       "AssetKind": "All",
@@ -169,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Identity": "C:\\NsureProject\\Nsure---Josh\\NsureProject\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Identity": "C:\\Projects\\Nsure---Josh\\NsureProject\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "SourceId": "NsureProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\NsureProject\\Nsure---Josh\\NsureProject\\wwwroot\\",
+      "ContentRoot": "C:\\Projects\\Nsure---Josh\\NsureProject\\wwwroot\\",
       "BasePath": "_content/NsureProject",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.svg",
       "AssetKind": "All",
@@ -188,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Identity": "C:\\NsureProject\\Nsure---Josh\\NsureProject\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Identity": "C:\\Projects\\Nsure---Josh\\NsureProject\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "SourceId": "NsureProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\NsureProject\\Nsure---Josh\\NsureProject\\wwwroot\\",
+      "ContentRoot": "C:\\Projects\\Nsure---Josh\\NsureProject\\wwwroot\\",
       "BasePath": "_content/NsureProject",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.ttf",
       "AssetKind": "All",
@@ -207,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Identity": "C:\\NsureProject\\Nsure---Josh\\NsureProject\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Identity": "C:\\Projects\\Nsure---Josh\\NsureProject\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "SourceId": "NsureProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\NsureProject\\Nsure---Josh\\NsureProject\\wwwroot\\",
+      "ContentRoot": "C:\\Projects\\Nsure---Josh\\NsureProject\\wwwroot\\",
       "BasePath": "_content/NsureProject",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.woff",
       "AssetKind": "All",
@@ -226,10 +226,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Identity": "C:\\NsureProject\\Nsure---Josh\\NsureProject\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Identity": "C:\\Projects\\Nsure---Josh\\NsureProject\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "SourceId": "NsureProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\NsureProject\\Nsure---Josh\\NsureProject\\wwwroot\\",
+      "ContentRoot": "C:\\Projects\\Nsure---Josh\\NsureProject\\wwwroot\\",
       "BasePath": "_content/NsureProject",
       "RelativePath": "css/open-iconic/FONT-LICENSE",
       "AssetKind": "All",
@@ -245,10 +245,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
-      "Identity": "C:\\NsureProject\\Nsure---Josh\\NsureProject\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Identity": "C:\\Projects\\Nsure---Josh\\NsureProject\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "SourceId": "NsureProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\NsureProject\\Nsure---Josh\\NsureProject\\wwwroot\\",
+      "ContentRoot": "C:\\Projects\\Nsure---Josh\\NsureProject\\wwwroot\\",
       "BasePath": "_content/NsureProject",
       "RelativePath": "css/open-iconic/ICON-LICENSE",
       "AssetKind": "All",
@@ -264,10 +264,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
     },
     {
-      "Identity": "C:\\NsureProject\\Nsure---Josh\\NsureProject\\wwwroot\\css\\open-iconic\\README.md",
+      "Identity": "C:\\Projects\\Nsure---Josh\\NsureProject\\wwwroot\\css\\open-iconic\\README.md",
       "SourceId": "NsureProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\NsureProject\\Nsure---Josh\\NsureProject\\wwwroot\\",
+      "ContentRoot": "C:\\Projects\\Nsure---Josh\\NsureProject\\wwwroot\\",
       "BasePath": "_content/NsureProject",
       "RelativePath": "css/open-iconic/README.md",
       "AssetKind": "All",
@@ -283,10 +283,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
     },
     {
-      "Identity": "C:\\NsureProject\\Nsure---Josh\\NsureProject\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Projects\\Nsure---Josh\\NsureProject\\wwwroot\\css\\site.css",
       "SourceId": "NsureProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\NsureProject\\Nsure---Josh\\NsureProject\\wwwroot\\",
+      "ContentRoot": "C:\\Projects\\Nsure---Josh\\NsureProject\\wwwroot\\",
       "BasePath": "_content/NsureProject",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -302,10 +302,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\NsureProject\\Nsure---Josh\\NsureProject\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Projects\\Nsure---Josh\\NsureProject\\wwwroot\\favicon.ico",
       "SourceId": "NsureProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\NsureProject\\Nsure---Josh\\NsureProject\\wwwroot\\",
+      "ContentRoot": "C:\\Projects\\Nsure---Josh\\NsureProject\\wwwroot\\",
       "BasePath": "_content/NsureProject",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -321,10 +321,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\NsureProject\\Nsure---Josh\\NsureProject\\wwwroot\\images\\docs.png",
+      "Identity": "C:\\Projects\\Nsure---Josh\\NsureProject\\wwwroot\\images\\docs.png",
       "SourceId": "NsureProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\NsureProject\\Nsure---Josh\\NsureProject\\wwwroot\\",
+      "ContentRoot": "C:\\Projects\\Nsure---Josh\\NsureProject\\wwwroot\\",
       "BasePath": "_content/NsureProject",
       "RelativePath": "images/docs.png",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\images\\docs.png"
     },
     {
-      "Identity": "C:\\NsureProject\\Nsure---Josh\\NsureProject\\wwwroot\\images\\edit.png",
+      "Identity": "C:\\Projects\\Nsure---Josh\\NsureProject\\wwwroot\\images\\edit.png",
       "SourceId": "NsureProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\NsureProject\\Nsure---Josh\\NsureProject\\wwwroot\\",
+      "ContentRoot": "C:\\Projects\\Nsure---Josh\\NsureProject\\wwwroot\\",
       "BasePath": "_content/NsureProject",
       "RelativePath": "images/edit.png",
       "AssetKind": "All",
@@ -359,10 +359,10 @@
       "OriginalItemSpec": "wwwroot\\images\\edit.png"
     },
     {
-      "Identity": "C:\\NsureProject\\Nsure---Josh\\NsureProject\\wwwroot\\images\\elecCar.gif",
+      "Identity": "C:\\Projects\\Nsure---Josh\\NsureProject\\wwwroot\\images\\elecCar.gif",
       "SourceId": "NsureProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\NsureProject\\Nsure---Josh\\NsureProject\\wwwroot\\",
+      "ContentRoot": "C:\\Projects\\Nsure---Josh\\NsureProject\\wwwroot\\",
       "BasePath": "_content/NsureProject",
       "RelativePath": "images/elecCar.gif",
       "AssetKind": "All",
@@ -378,10 +378,10 @@
       "OriginalItemSpec": "wwwroot\\images\\elecCar.gif"
     },
     {
-      "Identity": "C:\\NsureProject\\Nsure---Josh\\NsureProject\\wwwroot\\images\\home.gif",
+      "Identity": "C:\\Projects\\Nsure---Josh\\NsureProject\\wwwroot\\images\\home.gif",
       "SourceId": "NsureProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\NsureProject\\Nsure---Josh\\NsureProject\\wwwroot\\",
+      "ContentRoot": "C:\\Projects\\Nsure---Josh\\NsureProject\\wwwroot\\",
       "BasePath": "_content/NsureProject",
       "RelativePath": "images/home.gif",
       "AssetKind": "All",
@@ -397,10 +397,10 @@
       "OriginalItemSpec": "wwwroot\\images\\home.gif"
     },
     {
-      "Identity": "C:\\NsureProject\\Nsure---Josh\\NsureProject\\wwwroot\\images\\hospital.gif",
+      "Identity": "C:\\Projects\\Nsure---Josh\\NsureProject\\wwwroot\\images\\hospital.gif",
       "SourceId": "NsureProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\NsureProject\\Nsure---Josh\\NsureProject\\wwwroot\\",
+      "ContentRoot": "C:\\Projects\\Nsure---Josh\\NsureProject\\wwwroot\\",
       "BasePath": "_content/NsureProject",
       "RelativePath": "images/hospital.gif",
       "AssetKind": "All",
@@ -416,10 +416,29 @@
       "OriginalItemSpec": "wwwroot\\images\\hospital.gif"
     },
     {
-      "Identity": "C:\\NsureProject\\Nsure---Josh\\NsureProject\\wwwroot\\images\\mustang.gif",
+      "Identity": "C:\\Projects\\Nsure---Josh\\NsureProject\\wwwroot\\images\\microsoftLogin.png",
       "SourceId": "NsureProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\NsureProject\\Nsure---Josh\\NsureProject\\wwwroot\\",
+      "ContentRoot": "C:\\Projects\\Nsure---Josh\\NsureProject\\wwwroot\\",
+      "BasePath": "_content/NsureProject",
+      "RelativePath": "images/microsoftLogin.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\microsoftLogin.png"
+    },
+    {
+      "Identity": "C:\\Projects\\Nsure---Josh\\NsureProject\\wwwroot\\images\\mustang.gif",
+      "SourceId": "NsureProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Projects\\Nsure---Josh\\NsureProject\\wwwroot\\",
       "BasePath": "_content/NsureProject",
       "RelativePath": "images/mustang.gif",
       "AssetKind": "All",
@@ -435,10 +454,10 @@
       "OriginalItemSpec": "wwwroot\\images\\mustang.gif"
     },
     {
-      "Identity": "C:\\NsureProject\\Nsure---Josh\\NsureProject\\wwwroot\\images\\payments.png",
+      "Identity": "C:\\Projects\\Nsure---Josh\\NsureProject\\wwwroot\\images\\payments.png",
       "SourceId": "NsureProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\NsureProject\\Nsure---Josh\\NsureProject\\wwwroot\\",
+      "ContentRoot": "C:\\Projects\\Nsure---Josh\\NsureProject\\wwwroot\\",
       "BasePath": "_content/NsureProject",
       "RelativePath": "images/payments.png",
       "AssetKind": "All",
