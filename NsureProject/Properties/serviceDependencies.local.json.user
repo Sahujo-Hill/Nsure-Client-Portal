@@ -3,6 +3,10 @@
     "identityapp1": {
       "restored": true,
       "restoreTime": "2024-06-06T14:34:22.4456756Z"
+    },
+    "secrets1": {
+      "restored": true,
+      "restoreTime": "2024-06-08T00:01:35.9882343Z"
     }
   },
   "parameters": {}

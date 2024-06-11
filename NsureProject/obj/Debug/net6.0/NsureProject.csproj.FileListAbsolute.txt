@@ -203,3 +203,4 @@ C:\Projects\Nsure---Josh\NsureProject\obj\Debug\net6.0\refint\NsureProject.dll
 C:\Projects\Nsure---Josh\NsureProject\obj\Debug\net6.0\NsureProject.pdb
 C:\Projects\Nsure---Josh\NsureProject\obj\Debug\net6.0\NsureProject.genruntimeconfig.cache
 C:\Projects\Nsure---Josh\NsureProject\obj\Debug\net6.0\ref\NsureProject.dll
+C:\NsureProject\Nsure---Josh\NsureProject\obj\Debug\net6.0\NsureProject.sourcelink.json

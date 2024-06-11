@@ -1,50 +1,76 @@
 ﻿@using NsureProject.Pages
+@inject AuthenticationStateProvider AuthenticationStateProvider
+@using Microsoft.AspNetCore.Components.Authorization
+
 <link rel="stylesheet" href="/Shared/NavMenu.razor.css" />
 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@160..700&display=swap" rel="stylesheet">
 
-
-
-<div class="top-row ps-3 navbar navbar-dark">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="Nsure">Nsure</a>
-        <button title="Navigation menu" class="navbar-toggler" @onclick="ToggleNavMenu">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-    </div>
-</div>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
 
 <div class="@NavMenuCssClass" @onclick="ToggleNavMenu">
     <nav class="flex-column">
 
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="login" Match="NavLinkMatch.All">
-                <span class="oi oi-account-login" aria-hidden="true"></span> Login
-            </NavLink>
-        </div>
+          <div class="top-row ps-3 navbar navbar-dark">
+             <div style="display: flex; width: 100%; padding-left: 34%;">
+                <a class="navbar-brand" href="" style="font-family: Readex Pro; letter-spacing: 2.4px; color: #3C9072; margin-right: 0px">N</a>
+                 <a class="navbar-brand" href="" style="font-family: Readex Pro; letter-spacing: 2.4px; margin-left: 0px">sure</a>
+                 <button title="Navigation menu" class="navbar-toggler" @onclick="ToggleNavMenu">
+                     <span class="navbar-toggler-icon"></span>
+                 </button>
+             </div>
+         </div> 
 
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="policySelect" Match="NavLinkMatch.All">
-                <span class="oi oi-align-center" aria-hidden="true"></span> My Policies
-            </NavLink>
-        </div>
+        <AuthorizeView>
+            <NotAuthorized>
+                @if (context.User.Identity.IsAuthenticated)
+                {
+                    //Don't Show Login Button if user is already logged in
+                   
+                }
+                else
+                {
+                    <div class="nav-item px-3">
+                        <NavLink style="margin-top: 10px;" class="nav-link" href="login" Match="NavLinkMatch.All">
+                            <span class="oi oi-account-login" aria-hidden="true"></span> Login
+                        </NavLink>
+                    </div>
 
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="myCar" Match="NavLinkMatch.All">
-                <span class="oi oi-key" aria-hidden="true"></span> My Car
-            </NavLink>
-        </div>
+                }
 
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="myHome" Match="NavLinkMatch.All">
-                <span class="oi oi-home" aria-hidden="true"></span> My Home
-            </NavLink>
-        </div>
+            </NotAuthorized>
 
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="myLife" Match="NavLinkMatch.All">
-                <span class="oi oi-heart" aria-hidden="true"></span> My Life
-            </NavLink>
-        </div>
+            <Authorized>
+            <div class="nav-item px-3">
+                <NavLink style="margin-top:5px" class="nav-link" href="policySelect" Match="NavLinkMatch.All">
+                    <span  class="oi oi-align-center" aria-hidden="true"></span> My Policies
+                </NavLink>
+            </div>
+
+            <div class="nav-item px-3">
+                <NavLink class="nav-link" href="myCar" Match="NavLinkMatch.All">
+                    <span class="oi oi-key" aria-hidden="true"></span> My Car
+                </NavLink>
+            </div>
+
+            <div class="nav-item px-3">
+                <NavLink class="nav-link" href="myHome" Match="NavLinkMatch.All">
+                    <span class="oi oi-home" aria-hidden="true"></span> My Home
+                </NavLink>
+            </div>
+
+            <div class="nav-item px-3">
+                <NavLink class="nav-link" href="myLife" Match="NavLinkMatch.All">
+                    <span class="oi oi-heart" aria-hidden="true"></span> My Life
+                </NavLink>
+            </div>
+            </Authorized>
+        </AuthorizeView>
+        
 
 
     </nav>

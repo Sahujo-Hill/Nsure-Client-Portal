@@ -81,6 +81,10 @@
       "PackagePath": "staticwebassets\\images\\hospital.gif"
     },
     {
+      "Id": "C:\\Projects\\Nsure---Josh\\NsureProject\\wwwroot\\images\\microsoftLogin.png",
+      "PackagePath": "staticwebassets\\images\\microsoftLogin.png"
+    },
+    {
       "Id": "C:\\Projects\\Nsure---Josh\\NsureProject\\wwwroot\\images\\mustang.gif",
       "PackagePath": "staticwebassets\\images\\mustang.gif"
     },

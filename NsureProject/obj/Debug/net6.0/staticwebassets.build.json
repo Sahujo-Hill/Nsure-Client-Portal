@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "6BNpVmbY704unstsyEigUqqaEl/B01TupccL1nGjR0o=",
+  "Hash": "ld+WaPi801kVes/5PFjPv7A/bsx2RurxAO/QqwCVyDk=",
   "Source": "NsureProject",
   "BasePath": "_content/NsureProject",
   "Mode": "Default",
@@ -414,6 +414,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\hospital.gif"
+    },
+    {
+      "Identity": "C:\\Projects\\Nsure---Josh\\NsureProject\\wwwroot\\images\\microsoftLogin.png",
+      "SourceId": "NsureProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Projects\\Nsure---Josh\\NsureProject\\wwwroot\\",
+      "BasePath": "_content/NsureProject",
+      "RelativePath": "images/microsoftLogin.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\microsoftLogin.png"
     },
     {
       "Identity": "C:\\Projects\\Nsure---Josh\\NsureProject\\wwwroot\\images\\mustang.gif",

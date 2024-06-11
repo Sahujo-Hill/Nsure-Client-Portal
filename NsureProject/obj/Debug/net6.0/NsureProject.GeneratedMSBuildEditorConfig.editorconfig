@@ -22,6 +22,14 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Projects/Nsure---Josh/NsureProject/Components/FooterButtons.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xGb290ZXJCdXR0b25zLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/Nsure---Josh/NsureProject/Components/Logo.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMb2dvLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Projects/Nsure---Josh/NsureProject/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
@@ -46,8 +54,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTnN1cmUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Projects/Nsure---Josh/NsureProject/Pages/PolicyHome.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUG9saWN5SG9tZS5yYXpvcg==
+[C:/Projects/Nsure---Josh/NsureProject/Pages/PolicySelect.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUG9saWN5U2VsZWN0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Projects/Nsure---Josh/NsureProject/Shared/LoginDisplay.razor]
