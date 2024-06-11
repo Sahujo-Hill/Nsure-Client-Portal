@@ -2,6 +2,7 @@
 @using Microsoft.AspNetCore.Authorization;
 @inject AuthenticationStateProvider AuthenticationStateProvider
 @using Microsoft.AspNetCore.Components.Authorization
+@inject NavigationManager Navigation
 
 <link rel="stylesheet" href="/css/Global.css" />
 
@@ -17,8 +18,9 @@
 <AuthorizeView>
 
     <Authorized>
-        <p>Sorry @context.User.Identity?.Name, You Are already logged in with Microsoft.</p>
+        <p>Sorry @context.User.Identity?.Name, you are already logged in with Microsoft.</p>
         <a href="MicrosoftIdentity/Account/SignOut">Log out</a>
+        
     </Authorized>
 
     <NotAuthorized>
@@ -62,6 +64,17 @@
 
 
 
-@code {
+    @code {
+        protected override async Task OnInitializedAsync()
+        {
+            var authState = await AuthenticationStateProvider.GetAuthenticationStateAsync();
+            var user = authState.User;
 
-}
+            if (user.Identity.IsAuthenticated)
+            {
+                Navigation.NavigateTo("/policySelect");
+            }
+        }
+    }
+
+
