@@ -90,7 +90,25 @@ main[b-7iz4lkzh76] {
 
 .icon-menu-arrow[b-jjntpdi7gp] {
     text-align: right;
+    align-self: center;
 }
+
+#menuCollapse[b-jjntpdi7gp] {
+    width: 40px;
+    height: 30px;
+    color: #102920;
+    background-color: #3C9072;
+    border: 0px;
+    border-radius: 9999px;
+}
+
+    #menuCollapse:hover[b-jjntpdi7gp] {
+        background-color: #589c84;
+    }
+
+    #menuCollapse:active[b-jjntpdi7gp] {
+        background-color: #70ac94;
+    }
 
 .navbar-brand[b-jjntpdi7gp] {
     font-size: 1.1rem;

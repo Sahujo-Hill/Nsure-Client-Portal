@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NsureProject")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7f41e38d488a2eed81454bdddaa01f0b1b919edf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0221a338b2184e488e6dca30ce8ee34a5265d2da")]
 [assembly: System.Reflection.AssemblyProductAttribute("NsureProject")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NsureProject")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

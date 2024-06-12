@@ -18,7 +18,25 @@
 
 .icon-menu-arrow {
     text-align: right;
+    align-self: center;
 }
+
+#menuCollapse {
+    width: 40px;
+    height: 30px;
+    color: #102920;
+    background-color: #3C9072;
+    border: 0px;
+    border-radius: 9999px;
+}
+
+    #menuCollapse:hover {
+        background-color: #589c84;
+    }
+
+    #menuCollapse:active {
+        background-color: #70ac94;
+    }
 
 .navbar-brand {
     font-size: 1.1rem;

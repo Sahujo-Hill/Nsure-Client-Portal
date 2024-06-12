@@ -75,11 +75,11 @@
                 <div class="icon-menu-arrow">
                     @if (!@IconMenuActive)
                     {
-                        <span class="oi oi-arrow-left" style="color: white;" @onclick="ToggleIconMenu"></span>
+                        <button id="menuCollapse" class="oi oi-chevron-left" style="color: white;" @onclick="ToggleIconMenu"></button>
                     }
                     else
                     {
-                        <span class="oi oi-arrow-right" style="color: white;" @onclick="ToggleIconMenu"></span>
+                        <button id="menuCollapse" class="oi oi-chevron-right" style="color: white;" @onclick="ToggleIconMenu"></button>
                     }
                 </div>
             </div>
