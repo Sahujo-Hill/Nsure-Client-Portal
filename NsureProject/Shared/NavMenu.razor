@@ -20,19 +20,12 @@
 
         <AuthorizeView>
             <NotAuthorized>
-                @if (context.User.Identity.IsAuthenticated)
-                {
-                    //Don't Show Login Button if user is already logged in
-                   
-                }
-                else
-                {
-                    <div class="nav-item px-3">
-                        <NavLink style="margin-top: 10px;" class="nav-link" href="login" Match="NavLinkMatch.All">
-                            <span class="oi oi-account-login" aria-hidden="true"></span> Login
-                        </NavLink>
-                    </div>
-
+                
+                @code {
+                    protected override async void OnInitialized()
+                    {
+                    ToggleIconMenu();
+                    }
                 }
 
             </NotAuthorized>
@@ -119,4 +112,5 @@
         IconMenuActive = !IconMenuActive;
         await ShowIconMenu.InvokeAsync(IconMenuActive);
     }
+
 }
