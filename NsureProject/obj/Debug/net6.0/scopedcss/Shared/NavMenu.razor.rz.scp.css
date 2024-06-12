@@ -7,6 +7,19 @@
     background-color: #102920;
 }
 
+.bottom-row[b-jjntpdi7gp] {
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 10px;
+    text-align: right;
+    width: 100%;
+    padding-right: 28px;
+}
+
+.icon-menu-arrow[b-jjntpdi7gp] {
+    text-align: right;
+}
+
 .navbar-brand[b-jjntpdi7gp] {
     font-size: 1.1rem;
 }

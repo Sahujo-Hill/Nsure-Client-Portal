@@ -1,15 +1,5 @@
 ﻿@page "/myCar"
 
-<link rel="stylesheet" href="/css/Global.css" />
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@160..700&display=swap" rel="stylesheet">
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
-
 <div class="frame"><!--Generic Frame used for all pages: FrameSTART -->
 
     <NsureProject.Components.Logo>
@@ -19,7 +9,7 @@
     <!--Policy Summary-->
     <div class="policyContainer">
 
-        <div class="mySummary">
+        <div style="padding-top: 27px" class="mySummary">
             <img class="myHomeGif" src="/images/mustang.gif" alt="House" />
 
             <div class="policySelectWhiteBox">
@@ -85,6 +75,13 @@
 
 
 </div> <!--Generic Frame used for all pages: FrameEND -->
+
+<footer style="position: sticky;">
+    <NsureProject.Components.FooterButtons>
+
+    </NsureProject.Components.FooterButtons>
+</footer>
+
 @code {
 
 }

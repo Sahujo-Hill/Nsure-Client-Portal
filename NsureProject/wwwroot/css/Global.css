@@ -21,7 +21,7 @@
 .frame {
     display: flex;
     width: 100%;
-    height: 1024px;
+    height: 100%;
     padding: 28px 131px;
     justify-content: center;
     align-items: center;
@@ -321,4 +321,39 @@
 .paymentIcon {
     width: 70px;
     height: auto;
+}
+
+/*Footer Button Styles*/
+
+.footerButtonContainer {
+    display: flex;
+    justify-content: right;
+    margin-bottom: 27px;
+    margin-right: 65px;
+}
+
+.footerButton {
+    display: flex;
+    width: 232px;
+    height: 35px;
+    padding: 14px 24px;
+    margin: 27px 14px 0px 14px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px;
+    background: #000;
+    box-shadow: -2px px 1px 1px rgba(0, 0, 0, 0.25);
+    color: white;
+    font-family: Inter;
+    transition-duration: 0.3s;
+}
+
+.footerButton:hover {
+    background-color: #3C9072;
+    color: black;
+}
+
+.footerButton:active {
+    background-color: white;
 }
