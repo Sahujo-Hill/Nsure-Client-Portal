@@ -5,6 +5,8 @@ VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NsureProject", "NsureProject\NsureProject.csproj", "{D80EF2B6-543A-463E-8867-17E4755006EC}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NsureApi", "..\..\Users\doste\source\repos\NsureApi\NsureApi\NsureApi.csproj", "{A3B25F45-65B5-4420-ADD9-81A178618F29}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{D80EF2B6-543A-463E-8867-17E4755006EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D80EF2B6-543A-463E-8867-17E4755006EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D80EF2B6-543A-463E-8867-17E4755006EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3B25F45-65B5-4420-ADD9-81A178618F29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3B25F45-65B5-4420-ADD9-81A178618F29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3B25F45-65B5-4420-ADD9-81A178618F29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3B25F45-65B5-4420-ADD9-81A178618F29}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -9,79 +9,79 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = NsureProject
 build_property.RootNamespace = NsureProject
-build_property.ProjectDir = C:\Projects\Nsure---Josh\NsureProject\
+build_property.ProjectDir = C:\NsureProject\Nsure---Josh\NsureProject\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Projects\Nsure---Josh\NsureProject
+build_property.MSBuildProjectDirectory = C:\NsureProject\Nsure---Josh\NsureProject
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Projects/Nsure---Josh/NsureProject/App.razor]
+[C:/NsureProject/Nsure---Josh/NsureProject/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Projects/Nsure---Josh/NsureProject/Components/FooterButtons.razor]
+[C:/NsureProject/Nsure---Josh/NsureProject/Components/FooterButtons.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xGb290ZXJCdXR0b25zLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Projects/Nsure---Josh/NsureProject/Components/Logo.razor]
+[C:/NsureProject/Nsure---Josh/NsureProject/Components/Logo.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMb2dvLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Projects/Nsure---Josh/NsureProject/Pages/Index.razor]
+[C:/NsureProject/Nsure---Josh/NsureProject/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Projects/Nsure---Josh/NsureProject/Pages/Login.razor]
+[C:/NsureProject/Nsure---Josh/NsureProject/Pages/Login.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Projects/Nsure---Josh/NsureProject/Pages/MyCar.razor]
+[C:/NsureProject/Nsure---Josh/NsureProject/Pages/MyCar.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTXlDYXIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Projects/Nsure---Josh/NsureProject/Pages/MyHome.razor]
+[C:/NsureProject/Nsure---Josh/NsureProject/Pages/MyHome.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTXlIb21lLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Projects/Nsure---Josh/NsureProject/Pages/MyLife.razor]
+[C:/NsureProject/Nsure---Josh/NsureProject/Pages/MyLife.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTXlMaWZlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Projects/Nsure---Josh/NsureProject/Pages/Nsure.razor]
+[C:/NsureProject/Nsure---Josh/NsureProject/Pages/Nsure.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTnN1cmUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Projects/Nsure---Josh/NsureProject/Pages/PolicySelect.razor]
+[C:/NsureProject/Nsure---Josh/NsureProject/Pages/PolicySelect.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUG9saWN5U2VsZWN0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Projects/Nsure---Josh/NsureProject/Shared/SurveyPrompt.razor]
+[C:/NsureProject/Nsure---Josh/NsureProject/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Projects/Nsure---Josh/NsureProject/_Imports.razor]
+[C:/NsureProject/Nsure---Josh/NsureProject/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Projects/Nsure---Josh/NsureProject/Shared/MainLayout.razor]
+[C:/NsureProject/Nsure---Josh/NsureProject/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-7iz4lkzh76
 
-[C:/Projects/Nsure---Josh/NsureProject/Shared/NavMenu.razor]
+[C:/NsureProject/Nsure---Josh/NsureProject/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-jjntpdi7gp
 
-[C:/Projects/Nsure---Josh/NsureProject/Pages/Error.cshtml]
+[C:/NsureProject/Nsure---Josh/NsureProject/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Projects/Nsure---Josh/NsureProject/Pages/_Host.cshtml]
+[C:/NsureProject/Nsure---Josh/NsureProject/Pages/_Host.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Projects/Nsure---Josh/NsureProject/Pages/_Layout.cshtml]
+[C:/NsureProject/Nsure---Josh/NsureProject/Pages/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
