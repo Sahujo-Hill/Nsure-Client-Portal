@@ -1,12 +1,37 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\NsureProject\\Nsure---Josh\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Projects\\Nsure---Josh\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D80EF2B6-543A-463E-8867-17E4755006EC}|NsureProject\\NsureProject.csproj|c:\\projects\\nsure---josh\\nsureproject\\shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D80EF2B6-543A-463E-8867-17E4755006EC}|NsureProject\\NsureProject.csproj|solutionrelative:nsureproject\\shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 138,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Projects\\Nsure---Josh\\NsureProject\\Shared\\NavMenu.razor",
+              "RelativeDocumentMoniker": "NsureProject\\Shared\\NavMenu.razor",
+              "ToolTip": "C:\\Projects\\Nsure---Josh\\NsureProject\\Shared\\NavMenu.razor",
+              "RelativeToolTip": "NsureProject\\Shared\\NavMenu.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-14T12:26:51.944Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
