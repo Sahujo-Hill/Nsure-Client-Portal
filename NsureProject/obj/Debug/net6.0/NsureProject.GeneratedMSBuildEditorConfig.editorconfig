@@ -26,6 +26,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xGb290ZXJCdXR0b25zLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Projects/Nsure---Josh/NsureProject/Components/FooterButtonsMAC.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xGb290ZXJCdXR0b25zTUFDLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Projects/Nsure---Josh/NsureProject/Components/Logo.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMb2dvLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 

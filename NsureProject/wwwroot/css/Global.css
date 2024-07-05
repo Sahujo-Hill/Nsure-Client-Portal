@@ -146,6 +146,25 @@
     letter-spacing: 4px;
 }
 
+.readex32 {
+    color: #000;
+    font-family: "Readex Pro";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 4px;
+}
+
+.inter14Red {
+    color: #620000;
+    font-size: 14px;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: 19.60px;
+    word-wrap: break-word
+}
+
 .inter14Green {
     color: #3C9072;
     font-size: 14px;
@@ -337,20 +356,51 @@
     height: 504px;
     flex-shrink: 0;
     background: #FFF;
-    margin: 82px 20.5px 19px 20.5px
+    margin: 5px 20.5px 19px 20.5px
+}
+
+.changeTitle {
+    padding-left: 18px;
+    padding-top: 36px;
 }
 
 .toChange {
-    display: flex;
-    width: 1056px;
-    height: 72px;
+    width: 100%;
+    height: 85%;
     padding: 14px 16px;
-    align-items: flex-start;
-    gap: 12px;
-    flex-shrink: 0;
 }
 
 
+.toChangeBody tr {
+    border-bottom: 1px solid black;
+    width: 100%;
+    height: 72px;
+}
+
+.toChangeBody th {
+    padding-left: 15px;
+}
+
+.toChangeBody td {
+    padding-left: 10px;
+}
+
+.pressToChange {
+    padding-right: 15px;
+    text-align: right;
+    white-space: nowrap;
+}
+
+.toChangeBody tr span {
+    padding-left: 10px;
+    padding-top: 2px;
+}
+
+.disclaimer {
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
+}
 
 /*Footer Button Styles*/
 
