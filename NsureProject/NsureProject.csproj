@@ -19,4 +19,14 @@
     <PackageReference Include="Microsoft.Identity.Web.UI" Version="2.16.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Content Update="Components\Documents.razor">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Data\" />
+  </ItemGroup>
+
 </Project>

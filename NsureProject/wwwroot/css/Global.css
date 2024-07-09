@@ -174,6 +174,15 @@
     word-wrap: break-word
 }
 
+.inter14Grey {
+    color: #828282;
+    font-size: 14px;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: 19.60px;
+    word-wrap: break-word
+}
+
 .inter14 {
     color: black;
     font-size: 14px;
@@ -289,7 +298,7 @@
     border-bottom: 1px solid #000;
 }
 
-.dateTable td, th {
+.dateTable td, .dateTable th {
     padding-bottom: 15px;
     padding-top: 15px;
 }
@@ -370,6 +379,10 @@
     padding: 14px 16px;
 }
 
+.toChangeBody tr:hover {
+    border-bottom: 1px solid #102920;
+    background-color: #DCE8E4;
+}
 
 .toChangeBody tr {
     border-bottom: 1px solid black;
@@ -392,6 +405,171 @@
 }
 
 .toChangeBody tr span {
+    padding-left: 10px;
+    padding-top: 2px;
+}
+
+.disclaimer {
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+/*Document Styles*/
+
+.docsGreyBox {
+    width: 1097px;
+    height: 605px;
+    flex-shrink: 0;
+    background: #D9D9D9;
+}
+
+.docsWhiteBox {
+    width: 1056px;
+    height: 504px;
+    flex-shrink: 0;
+    background: #FFF;
+    margin: 5px 20.5px 19px 20.5px
+}
+
+.docsTitle {
+    padding-left: 18px;
+    padding-top: 36px;
+}
+
+.docsTable {
+    width: 100%;
+    height: 85%;
+    padding: 14px 16px;
+
+}
+
+.docsTable tr:hover {
+    border-bottom: 1px solid #102920;
+    background-color: #DCE8E4;
+}
+
+
+.docsTableBody tr {
+    border-bottom: 1px solid black;
+    width: 100%;
+    height: 72px;
+}
+
+.docsTableBody th {
+    padding-left: 15px;
+}
+
+.docsTableBody td {
+    padding-left: 10px;
+}
+
+.pressToView {
+    padding-right: 15px;
+    text-align: right;
+    white-space: nowrap;
+}
+
+.docsTableBody tr span {
+    padding-left: 10px;
+    padding-top: 2px;
+}
+
+.disclaimer {
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+/*Payment Styles*/
+
+.paymentGreyBox {
+    width: 1097px;
+    height: 605px;
+    flex-shrink: 0;
+    background: #D9D9D9;
+}
+
+.paymentWhiteBox {
+    width: 1056px;
+    height: 504px;
+    flex-shrink: 0;
+    background: #FFF;
+    margin: 5px 20.5px 19px 20.5px
+}
+
+.paymentHeader {
+    display: flex;
+    flex-direction: row;
+}
+
+.paymentButton {
+    display: flex;
+    width: 232px;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: #3C9072;
+    box-shadow: -2px px 1px 1px rgba(0, 0, 0, 0.25);
+    color: white;
+    font-family: Inter;
+    transition-duration: 0.3s;
+    margin: 34px 15px 0px 95px;
+}
+
+    .paymentButton:hover {
+        background-color: black;
+        color: white;
+    }
+
+    .paymentButton:active {
+        background-color: white;
+    }
+
+.paymentTitle {
+    padding-left: 18px;
+    padding-top: 36px;
+}
+
+.paymentTable {
+    width: 100%;
+    height: 85%;
+    padding: 14px 16px;
+}
+
+.paymentTableTitle {
+    vertical-align: bottom;
+}
+
+.paymentTableTitle th {
+    padding-bottom: 5px;
+}
+
+.paymentTable tr:hover {
+    border-bottom: 1px solid #102920;
+    background-color: #DCE8E4;
+}
+
+.paymentTable tr:first-child:hover {
+    background-color: white;
+}
+
+.paymentTableBody tr {
+    border-bottom: 1px solid #828282;
+    width: 100%;
+    height: 72px;
+}
+
+.paymentTableBody th {
+    padding-left: 10px;
+}
+
+.paymentTableBody td {
+    padding-left: 10px;
+}
+
+.docsTableBody tr span {
     padding-left: 10px;
     padding-top: 2px;
 }
@@ -427,11 +605,11 @@
     transition-duration: 0.3s;
 }
 
-.footerButton:hover {
-    background-color: #3C9072;
-    color: black;
-}
+    .footerButton:hover {
+        background-color: #3C9072;
+        color: black;
+    }
 
-.footerButton:active {
-    background-color: white;
-}
+    .footerButton:active {
+        background-color: white;
+    }
