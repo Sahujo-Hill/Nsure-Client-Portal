@@ -91,3 +91,30 @@
         display: block;
     }
 }
+
+.iconMenuLogo[b-jjntpdi7gp] {
+    display: flex;
+    width: 100%;
+    padding-left: 34%;
+}
+
+.companyLogoNSmall[b-jjntpdi7gp] {
+    font-family: Readex Pro;
+    letter-spacing: 2.4px;
+    color: #3C9072;
+    margin-right: 0px;
+}
+
+.companyLogoNSmall:hover[b-jjntpdi7gp] {
+    color:#3C9072;
+}
+
+.companyLogoNSmall:active[b-jjntpdi7gp] {
+    color: #3C9072;
+}
+
+.companyLogoSureSmall[b-jjntpdi7gp] {
+    font-family: Readex Pro;
+    letter-spacing: 2.4px;
+    margin-left: 0px;
+}

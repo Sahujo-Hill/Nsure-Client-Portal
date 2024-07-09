@@ -91,3 +91,30 @@
         display: block;
     }
 }
+
+.iconMenuLogo {
+    display: flex;
+    width: 100%;
+    padding-left: 34%;
+}
+
+.companyLogoNSmall {
+    font-family: Readex Pro;
+    letter-spacing: 2.4px;
+    color: #3C9072;
+    margin-right: 0px;
+}
+
+.companyLogoNSmall:hover {
+    color:#3C9072;
+}
+
+.companyLogoNSmall:active {
+    color: #3C9072;
+}
+
+.companyLogoSureSmall {
+    font-family: Readex Pro;
+    letter-spacing: 2.4px;
+    margin-left: 0px;
+}

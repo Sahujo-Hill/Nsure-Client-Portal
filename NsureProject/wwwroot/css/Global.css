@@ -74,6 +74,14 @@
     text-align: center;
 }
 
+.NavLink {
+    text-decoration: none;
+}
+
+.logOutButton {
+    text-decoration: none;
+}
+
 /*Login Styles*/
 
 .loginEntry {
@@ -122,6 +130,34 @@
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
     text-align: center
+}
+
+.username {
+    margin-bottom: 0px;
+    margin-top: 100px;
+}
+
+.password {
+    margin-bottom: 0px;
+}
+
+.LoginNavLink {
+    text-decoration: none;
+    margin-top: 30px;
+    align-self: center;
+}
+
+.microsoftAuth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.microsoftAuth p {
+    margin: 0 0 10px 0;
+    font-size: 16px;
+    color: #333;
+    font-family: Inter;
 }
 
 /*Generic fonts with differing sizes*/
@@ -209,6 +245,12 @@
     padding-left: 5px;
 }
 
+.policySelectHeading {
+    background-color: #D9D9D9;
+    margin-top: 22px;
+    padding: 11px 14px;
+}
+
 /*PolicySelect Page Car Styles*/
 
 .myCar { 
@@ -289,6 +331,15 @@
     padding-top: 16px;
 }
 
+.myCarSummary {
+    display: flex;
+    flex-direction: column;
+    width: 331px;
+    height: 453px;
+    background: #D9D9D9;
+    padding-top: 27px;
+}
+
 .dateTable {
     margin: 62px 30px 0px 30px;
     width: 650px;
@@ -349,6 +400,12 @@
 .paymentIcon {
     width: 70px;
     height: auto;
+}
+
+.mySummaryHomeGif {
+    width: 79%;
+    height: auto;
+    margin: 112px 12px 5px 16px;
 }
 
 /*MAC Styles*/
@@ -613,3 +670,7 @@
     .footerButton:active {
         background-color: white;
     }
+
+.stickyFooter {
+    position: sticky;
+}
