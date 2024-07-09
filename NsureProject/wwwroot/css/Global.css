@@ -34,6 +34,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 35px;
 }
 
 .logoText {
@@ -72,6 +73,12 @@
     line-height: normal;
     letter-spacing: 4px;
     text-align: center;
+}
+
+.companyLogoCPBG {
+    width: 100%;
+    height: 51px;
+    background: #D9D9D9;
 }
 
 .NavLink {
