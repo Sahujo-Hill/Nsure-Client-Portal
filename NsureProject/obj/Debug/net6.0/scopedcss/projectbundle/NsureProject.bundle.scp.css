@@ -175,6 +175,10 @@ main[b-7iz4lkzh76] {
     letter-spacing: 2.4px;
     color: #3C9072;
     margin-right: 0px;
+    padding-top: .3125rem;
+    font-size: 1.25rem;
+    text-decoration: none;
+    white-space: nowrap;
 }
 
 .companyLogoNSmall:hover[b-jjntpdi7gp] {
