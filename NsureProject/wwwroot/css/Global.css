@@ -258,8 +258,6 @@
     padding: 11px 14px;
 }
 
-/*PolicySelect Page Car Styles*/
-
 .myCar { 
     width: 331px;
     height: 453px;
@@ -268,13 +266,15 @@
     margin-right: 16px;
 }
 
+    .myCar:hover {
+        opacity: 85%;
+    }
+
 .myCarGif {
     width: 90%;
     height: auto;
     margin: 112px 12px 5px 16px;
 }
-
-/*PolicySelect Page Home Styles*/
 
 .myHome {
     width: 331px;
@@ -285,13 +285,15 @@
     padding-top: 16px;
 }
 
+.myHome:hover {
+    opacity: 85%;
+}
+
 .myHomeGif {
     width: 90%;
     height: auto;
     margin: 112px 12px 5px 16px;
 }
-
-/*PolicySelect Page Life Styles*/
 
 .myLife {
     width: 331px;
@@ -302,13 +304,17 @@
     
 }
 
+.myLife:hover {
+    opacity: 85%;
+}
+
 .myLifeGif {
     width: 90%;
     height: auto;
     margin: 100px 12px 5px 16px;
 }
 
-/*myPolicy Page Styles*/
+/*myCar/Home/Life Page Styles*/
 
 .policyContainer {
     display: flex;
@@ -407,6 +413,14 @@
 .paymentIcon {
     width: 70px;
     height: auto;
+}
+
+.policyButton:hover {
+    opacity: 70%;
+}
+
+.policyButton span:hover {
+    text-decoration: underline solid #3C9072;
 }
 
 .mySummaryHomeGif {

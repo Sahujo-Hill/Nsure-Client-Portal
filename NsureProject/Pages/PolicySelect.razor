@@ -4,14 +4,13 @@
 @using Microsoft.AspNetCore.Components.Authorization
 
 <AuthorizeView>
-
     <div class="frame"> <!--Generic Frame used for all pages: FrameSTART -->
 
         <NsureProject.Components.Logo>
 
         </NsureProject.Components.Logo>
 
-        <div class="policySelector"> <!--All the Policy Selectors: Car, Home, Life-->
+        <div class="policySelector">
 
             <NavLink class="NavLink" href="myCar" Match="NavLinkMatch.All">
                 <div class="myCar">
@@ -52,7 +51,6 @@
             </a> <!--Not sure about this placement, might move but not sure where.-->
 
     </div> <!--Generic Frame used for all pages: FrameEND -->
-
 </AuthorizeView>
 
     @code {

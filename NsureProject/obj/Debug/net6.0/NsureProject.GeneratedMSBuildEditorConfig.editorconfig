@@ -46,6 +46,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYXltZW50U3VtbWFyeS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Projects/Nsure---Josh/NsureProject/Components/PolicySummaryButtons.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQb2xpY3lTdW1tYXJ5QnV0dG9ucy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Projects/Nsure---Josh/NsureProject/Pages/Login.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
@@ -60,10 +64,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Projects/Nsure---Josh/NsureProject/Pages/MyLife.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTXlMaWZlLnJhem9y
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Projects/Nsure---Josh/NsureProject/Pages/Nsure.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTnN1cmUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Projects/Nsure---Josh/NsureProject/Pages/PolicySelect.razor]
