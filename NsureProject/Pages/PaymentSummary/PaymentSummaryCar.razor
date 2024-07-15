@@ -1,0 +1,83 @@
+﻿@page "/paymentSummaryCar"
+@using NsureProject.Models
+
+<div class="frame">
+    <!--Generic Frame used for all pages: FrameSTART -->
+
+
+    <NsureProject.Components.Logo>
+
+    </NsureProject.Components.Logo>
+
+    <div class="paymentGreyBox">
+
+        <div class="paymentHeader">
+            <div class="paymentTitle readex32">Payment Summary for: FORD Mustang</div>
+                <button class="paymentButton">Update Payment Card</button>
+        </div>
+
+        <div class="paymentWhiteBox">
+
+            <table class="paymentTable">
+
+                <tbody class="paymentTableBody">
+                    <tr class="paymentTableTitle">
+                        <th class="inter14Grey">Date</th>
+                        <th class="inter14Grey">Payment Method</th>
+                        <th class="inter14Grey">Amount</th>
+                    </tr>
+                    <tr>
+                        <td class="inter14">20/05/2024</td>
+                        <td class="inter14">Card Ending 1234</td>
+                        <td class="inter14">£13.00</td>
+                    </tr>
+                    <tr>
+                        <td class="inter14">08/12/2023</td>
+                        <td class="inter14">Card Ending 1234</td>
+                        <td class="inter14">£5.50</td>
+                    </tr>
+                    <tr>
+                        <td class="inter14">03/12/2023</td>
+                        <td class="inter14">Card Ending 1234</td>
+                        <td class="inter14">£156.43</td>
+                    </tr>
+                    <tr>
+                        <td class="inter14">01/12/2023</td>
+                        <td class="inter14">Card Ending 1234</td>
+                        <td class="inter14">£5.50</td>
+                    </tr>
+                    <tr>
+                        <td class="inter14">24/09/2023</td>
+                        <td class="inter14">Card Ending 1234</td>
+                        <td class="inter14">£1050.86</td>
+                    </tr>
+                </tbody>
+
+            </table>
+
+            <div class="disclaimer inter14">These figures are <strong>not</strong> proof of payment. Please see your documentation for accurate and up-to-date payment information. For any enquiries regarding payment information, please contact us at 
+                <span class="inter14Red">Accounts@Nsure.co.uk</span> 
+            </div>
+
+        </div>
+
+    </div>
+
+</div> <!--Generic Frame used for all pages: FrameEND -->
+
+<footer class="stickyFooter">
+    <NsureProject.Components.FooterButtonsMAC>
+
+    </NsureProject.Components.FooterButtonsMAC>
+</footer>
+
+@code {
+
+       public List<Payments> payments = new List<Payments> 
+       {
+
+           
+
+       }; 
+
+}
