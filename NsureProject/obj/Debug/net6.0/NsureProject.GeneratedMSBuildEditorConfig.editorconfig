@@ -22,6 +22,10 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Projects/Nsure---Josh/NsureProject/Components/Documents.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xEb2N1bWVudHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Projects/Nsure---Josh/NsureProject/Components/FooterButtons.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xGb290ZXJCdXR0b25zLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
@@ -34,60 +38,32 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMb2dvLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Projects/Nsure---Josh/NsureProject/Components/PolicySummaryButtonsCar.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQb2xpY3lTdW1tYXJ5QnV0dG9uc0Nhci5yYXpvcg==
+[C:/Projects/Nsure---Josh/NsureProject/Components/MakeAChange.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xNYWtlQUNoYW5nZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Projects/Nsure---Josh/NsureProject/Components/PolicySummaryButtonsHome.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQb2xpY3lTdW1tYXJ5QnV0dG9uc0hvbWUucmF6b3I=
+[C:/Projects/Nsure---Josh/NsureProject/Components/PaymentSummary.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYXltZW50U3VtbWFyeS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Projects/Nsure---Josh/NsureProject/Components/PolicySummaryButtonsLife.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQb2xpY3lTdW1tYXJ5QnV0dG9uc0xpZmUucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Projects/Nsure---Josh/NsureProject/Pages/Documents.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRG9jdW1lbnRzLnJhem9y
+[C:/Projects/Nsure---Josh/NsureProject/Components/PolicySummaryButtons.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQb2xpY3lTdW1tYXJ5QnV0dG9ucy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Projects/Nsure---Josh/NsureProject/Pages/Login.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Projects/Nsure---Josh/NsureProject/Pages/MakeAChange/MakeAChange Life.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFrZUFDaGFuZ2VcTWFrZUFDaGFuZ2UgTGlmZS5yYXpvcg==
+[C:/Projects/Nsure---Josh/NsureProject/Pages/MyCar.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTXlDYXIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Projects/Nsure---Josh/NsureProject/Pages/MakeAChange/MakeAChangeCar.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFrZUFDaGFuZ2VcTWFrZUFDaGFuZ2VDYXIucmF6b3I=
+[C:/Projects/Nsure---Josh/NsureProject/Pages/MyHome.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTXlIb21lLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Projects/Nsure---Josh/NsureProject/Pages/MakeAChange/MakeAChangeHome.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFrZUFDaGFuZ2VcTWFrZUFDaGFuZ2VIb21lLnJhem9y
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Projects/Nsure---Josh/NsureProject/Pages/My\[policy\]/MyCar.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTXlbcG9saWN5XVxNeUNhci5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Projects/Nsure---Josh/NsureProject/Pages/My\[policy\]/MyHome.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTXlbcG9saWN5XVxNeUhvbWUucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Projects/Nsure---Josh/NsureProject/Pages/My\[policy\]/MyLife.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTXlbcG9saWN5XVxNeUxpZmUucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Projects/Nsure---Josh/NsureProject/Pages/PaymentSummary/PaymentSummaryCar.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGF5bWVudFN1bW1hcnlcUGF5bWVudFN1bW1hcnlDYXIucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Projects/Nsure---Josh/NsureProject/Pages/PaymentSummary/PaymentSummaryHome.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGF5bWVudFN1bW1hcnlcUGF5bWVudFN1bW1hcnlIb21lLnJhem9y
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Projects/Nsure---Josh/NsureProject/Pages/PaymentSummary/PaymentSummaryLife.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGF5bWVudFN1bW1hcnlcUGF5bWVudFN1bW1hcnlMaWZlLnJhem9y
+[C:/Projects/Nsure---Josh/NsureProject/Pages/MyLife.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTXlMaWZlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Projects/Nsure---Josh/NsureProject/Pages/PolicySelect.razor]
