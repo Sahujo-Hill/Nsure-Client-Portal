@@ -26,8 +26,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xGb290ZXJCdXR0b25zLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Projects/Nsure---Josh/NsureProject/Components/FooterButtonsMAC.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xGb290ZXJCdXR0b25zTUFDLnJhem9y
+[C:/Projects/Nsure---Josh/NsureProject/Components/FooterButtonsBack.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xGb290ZXJCdXR0b25zQmFjay5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Projects/Nsure---Josh/NsureProject/Components/Logo.razor]
@@ -78,16 +78,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTXlbcG9saWN5XVxNeUxpZmUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Projects/Nsure---Josh/NsureProject/Pages/PaymentSummary/PaymentSummaryCar.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGF5bWVudFN1bW1hcnlcUGF5bWVudFN1bW1hcnlDYXIucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Projects/Nsure---Josh/NsureProject/Pages/PaymentSummary/PaymentSummaryHome.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGF5bWVudFN1bW1hcnlcUGF5bWVudFN1bW1hcnlIb21lLnJhem9y
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Projects/Nsure---Josh/NsureProject/Pages/PaymentSummary/PaymentSummaryLife.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGF5bWVudFN1bW1hcnlcUGF5bWVudFN1bW1hcnlMaWZlLnJhem9y
+[C:/Projects/Nsure---Josh/NsureProject/Pages/PaymentSummary/PaymentSummary.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGF5bWVudFN1bW1hcnlcUGF5bWVudFN1bW1hcnkucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Projects/Nsure---Josh/NsureProject/Pages/PolicySelect.razor]
