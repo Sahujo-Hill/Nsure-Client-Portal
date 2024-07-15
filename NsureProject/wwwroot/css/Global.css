@@ -695,3 +695,99 @@
 .stickyFooter {
     position: sticky;
 }
+
+@media only screen and (max-width: 640px) {
+
+    .top-row[b-7iz4lkzh76] {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 1300px) {
+
+    html {
+        width: 100% !important;
+    }
+
+    .px-4 {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+
+    .navbar-toggler {
+        display: none;
+    }
+
+    .navbar-dark .navbar-toggler-icon {
+        display: none;
+    }
+
+    .nav-item[b-jjntpdi7gp] a {
+        height: 100%;
+        line-height: 110%;
+    }
+
+    .fontMobile {
+        font-size: 10px;
+    }
+
+    .policySelector {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .logOutButton {
+        padding-bottom: 5%;
+    }
+
+    .policyContainer {
+        width: 100%;
+        background-color: white;
+    }
+
+    .invisibleMobile {
+        display: none;
+    }
+
+
+    .policyContainerWhiteBox {
+        width: 100%;
+        margin: 0px;
+        padding: 3%
+    }
+
+    .dateTable {
+        width: 100%;
+        margin: 0;
+        column-gap: au
+    }
+
+    .summaryTable {
+        width: 100%;
+        margin: 0;
+    }
+
+        .summaryTable td {
+            text-align: left;
+        }
+
+        .summaryTable th {
+            padding-right: 5px;
+        }
+
+    .policyButtonSection {
+        display: flex;
+        margin: 0px;
+        margin-top: 15px;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .footerButtonContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
