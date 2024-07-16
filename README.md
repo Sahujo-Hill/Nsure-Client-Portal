@@ -1,4 +1,4 @@
-This project is a Client Portal for a mock insurance company: "NSure" that demonstrates my understanding of the Blazor framework and basic coding principle. <br></br>
+This project is a Client Portal for a mock insurance company: "NSure" that demonstrates my understanding of the Blazor framework and basic coding principle. This project best demonstrates my HTML skills primarily and then my CSS. <br></br>
 ### It contains:
 - Microsoft Authentication for log in - controlled via Azure
 - Authorised view for each page/component
