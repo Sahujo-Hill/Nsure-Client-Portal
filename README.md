@@ -1,6 +1,6 @@
 This project is a Client Portal for a mock insurance company: "NSure" that demonstrates my understanding of the Blazor framework and basic coding principle. <br></br>
 It contains:
-- Microsoft Authentication for log in
+- Microsoft Authentication for log in - controlled via Azure
 - Authorised view for each page/component
 - Simple but effective, user friendly interface that reflects my original design in Figma
 - Good Navigation making an extended use of Blazor's in-built Nav Menu
