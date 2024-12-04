@@ -3,6 +3,10 @@
     "identityapp1": {
       "connectionInfo": "App registration: Nsure, Tenant: Default Directory (dostevaol.onmicrosoft.com - Microsoft Entra ID)",
       "type": "identityapp.default"
+    },
+    "secrets1": {
+      "type": "secrets.user",
+      "dynamicId": null
     }
   }
 }

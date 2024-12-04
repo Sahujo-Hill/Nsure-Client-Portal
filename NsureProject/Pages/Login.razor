@@ -1,51 +1,71 @@
-﻿@page "/login"
+﻿@page "/"
+@using Microsoft.AspNetCore.Authorization;
+@inject AuthenticationStateProvider AuthenticationStateProvider
+@using Microsoft.AspNetCore.Components.Authorization
+@inject NavigationManager Navigation
 
-<link rel="stylesheet" href="/css/Global.css" />
+<AuthorizeView>
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@160..700&display=swap" rel="stylesheet">
+    <Authorized>
+        <p>Sorry @context.User.Identity?.Name, you are already logged in with Microsoft.</p>
+        <a href="MicrosoftIdentity/Account/SignOut">
+            <button class="footerButton">Log out</button>
+        </a>
+        
+    </Authorized>
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <NotAuthorized>
 
-<div class="frame"> <!--Generic Frame used for all pages: FrameSTART -->
-    
-    <!--Nsure Client Portal logo-->
-    <div style="margin-bottom: 125px" class="companyLogo">
+        <div class="frame"><!--Generic Frame used for all pages: FrameSTART -->
 
-        <div class="logoText">
-            <span class="companyLogoN">N</span>
-            <span class="companyLogoSure">sure</span>
-        </div>
+            <NsureProject.Components.Logo>
 
-        <div style="width: 100%; height: 30%; background: #D9D9D9">
-            <p class="companyLogoCP">
-                Client Portal
-            </p>
-        </div>
-    </div>
+            </NsureProject.Components.Logo>
 
-    <!--Nsure Login fields and button-->
-    <div class="loginEntry">
+            <!--Nsure Login fields and button-->
+            <div class="loginEntry">
 
-        <p style="margin-bottom: 0px" class="readex24">Username</p>
-        <textarea style="width: 313px; height: 51px; background: #D9D9D9"></textarea>
-        <p style="margin-bottom: 0px" class="readex24">Password</p>
-        <textarea type="password" style="margin-bottom: 30px; width: 313px; height: 51px; background: #D9D9D9"></textarea>
+                <p style="margin-bottom: 0px; margin-top: 100px" class="readex24">Username</p>
+                <input class="loginInput"/>
+                <p style="margin-bottom: 0px" class="readex24">Password</p>
+                <input type="password" class="loginInput" />
 
-        <NavLink style="text-decoration: none; align-self: center" href="policySelect" Match="NavLinkMatch.All">
+                <NavLink style="text-decoration: none; margin-top: 30px; align-self: center" href="policySelect" Match="NavLinkMatch.All">
+                    <button class="loginButton">Login</button>
+                </NavLink>
 
-            <button class="loginButton">Login</button>
+                <div style="display: flex; justify-content: center; align-items: center;">
+                    <div class="alternateLoginContainer">
+                        <p style="margin: 0 0 10px 0; font-size: 16px; color: #333; font-family: Inter;">
+                            Don't have an account setup?
+                        </p>
+                        <a href="MicrosoftIdentity/Account/SignIn">
+                            <img src="/images/microsoftLogin.png" />
+                        </a>
+                    </div>
+                </div>
 
-        </NavLink>
-
-    </div>
+            </div>
 
 
-</div> <!--Generic Frame used for all pages: FrameEND -->
+        </div> <!--Generic Frame used for all pages: FrameEND -->
+    </NotAuthorized>
 
-@code {
+</AuthorizeView>
 
-}
+
+
+    @code {
+        protected override async Task OnInitializedAsync()
+        {
+            var authState = await AuthenticationStateProvider.GetAuthenticationStateAsync();
+            var user = authState.User;
+
+            if (user.Identity.IsAuthenticated)
+            {
+                Navigation.NavigateTo("/policySelect");
+            }
+        }
+    }
+
+
